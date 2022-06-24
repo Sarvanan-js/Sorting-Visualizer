@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 align = "center">Sorting Visualizer</h1>
+    <div id = "header">
+        <button type="submit" id = "newArray" onclick="createNewArray()">New Array</button>
+        <span>Size</span>
+        <input type="range" name="" id="arr_sz" min="5" max="100" value="60" onclick="changeArraySize(value)">
+        <span>Speed</span>
+        <input type="range" id = "speed_input" min = "20" max = "300" value = "60">
+        <button type="submit" class = "Sortingbuttons" id = "bubble">Bubble Sort</button>
+        <button type = "submit" class = "Sortingbuttons"  id = "selection">Selection Sort</button>
+        <button type="submit" class = "Sortingbuttons" id = "insertion">Insertion Sort</button>
+        <button type="submit" class = "Sortingbuttons" id = "quick">Quick Sort</button>
+        <button type="submit" class = "Sortingbuttons" id = "merge">Merge Sort</button>
+    </div>
+    
+
+    <div id="bars" class="flex-container"></div>
+    <script src = "sorting.js"></script>
+    <script src = "selection.js"></script>
+    <script src = "bubble.js"></script>
+    <script src= "insertion.js"></script>
+    <script src= "merge.js"></script>
+    <script src = "quick.js"></script>
+</body>
+</html>

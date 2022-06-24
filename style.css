@@ -1,0 +1,85 @@
+body
+{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    background-color: #212529;
+    color  : white;
+}
+
+#newArray
+{
+    font-size: 20px;
+    width: 125px;
+    height: 80px;
+    margin-right: 200px;
+    border-radius: 5%;
+    color: green;
+    background-color:#212529;
+    border: 1px solid green;
+    cursor: pointer;
+    transition: all 0.3;
+}
+
+#newArray:hover
+{
+    background-color: green;
+    color: white;
+}
+
+#arr_sz
+{
+    position: relative;
+    top:25px;
+    right: 50px;
+    cursor: pointer;
+}
+
+#speed_input {
+    position: relative;
+    top: 25px;
+    right: 65px;
+    cursor: pointer;
+}
+
+.Sortingbuttons
+{
+    font-size: 15px;
+    width: 125px;
+    height: 80px;
+    border-radius: 5%;
+    background-color:#212529;
+    color: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+    transition: all 0.3;
+}
+
+.Sortingbuttons:hover
+{
+    background-color: blue;
+    color: white;
+}
+
+
+.flex-container {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    /* doubt what does these properties do */
+
+    transition: 2s all ease;
+    /* what is the significance of these properties */
+}
+
+.flex-item {
+    background: cyan;
+    border: 1pt solid black;
+    width: 10px;
+
+    transition: 0.1s all ease;
+    /* what is the significance of these properties */
+}
